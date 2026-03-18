@@ -12,7 +12,7 @@ Predict whether a product delivery will be delayed to improve logistics efficien
 ## 📊 Dataset
 - 10,999 records
 - 12 features
-- Target:
+- Target: Reached.on.Time_Y.N
   - 0 → On-time delivery
   - 1 → Delayed delivery
 
