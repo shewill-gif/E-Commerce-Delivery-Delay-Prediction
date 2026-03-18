@@ -2,7 +2,7 @@
 This project predicts delivery delays using machine learning to improve logistics efficiency and customer satisfaction.
 
 ## 📎 Project Notebook
-[Click here to view notebook](./capstone_project_ecom_delivery_prediction)
+[Click here to view notebook](./shewill-gif_E-Commerce-Delivery-Delay-Prediction_ To enhance the understanding of product delivery patterns for an international e-commerce company .The)
 
 # E-Commerce Delivery Delay Prediction
 
