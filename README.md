@@ -31,9 +31,9 @@ Random Forest (tuned)
 - Moderate recall for delayed deliveries
 
 ## 🔍 Key Insights
-- Higher discounts increase delay probability
-- Product weight significantly impacts delivery
-- Warehouse load affects performance
+- Higher discounts are associated with increased delivery delays
+- Heavier products are more likely to be delivered on time
+- Higher shipment volume in Warehouse Block F may contribute to delivery delays
 - Shipment mode impact is volume-driven
 
 ## 💡 Business Recommendations
