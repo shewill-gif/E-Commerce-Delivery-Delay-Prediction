@@ -1,18 +1,21 @@
-# 📦 E-Commerce Delivery Prediction
+# E-Commerce Delivery Prediction
 
-## 🎯 Objective
+## Objective
 
 The goal of this project is to predict whether an e-commerce product delivery will be delayed or delivered on time using machine learning techniques.
 
 ---
 
-## 💼 Business Problem
+## Business Problem
 
 Delayed deliveries negatively impact customer satisfaction and operational efficiency. This project aims to proactively identify high-risk shipments so that logistics teams can take preventive actions.
 
 ---
+## Project Notebook
 
-## 📊 Dataset Features
+https://github.com/shewill-gif/E-Commerce-Delivery-Delay-Prediction/blob/main/capstone_project_ecom_delivery_prediction.ipynb
+
+## Dataset Features
 
 * Shipment details (Mode, Warehouse)
 * Product attributes (Weight, Cost, Importance)
@@ -21,7 +24,7 @@ Delayed deliveries negatively impact customer satisfaction and operational effic
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 Key insights:
 
@@ -32,13 +35,13 @@ Key insights:
 
 ---
 
-## ⚙️ Feature Engineering
+## Feature Engineering
 
 * Encoded categorical variables using One-Hot & Ordinal Encoding
 
 ---
 
-## 🤖 Models Used
+## Models Used
 
 * Logistic Regression
 * Decision Tree
@@ -47,7 +50,7 @@ Key insights:
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Model               | Accuracy |
 | ------------------- | -------- |
@@ -58,7 +61,7 @@ Key insights:
 
 ---
 
-## 🏆 Final Model
+## Final Model
 
 **Random Forest** was selected due to:
 
@@ -68,13 +71,13 @@ Key insights:
 
 ---
 
-## ⚖️ Key Trade-Off
+## Key Trade-Off
 
 The model was optimized for **recall** to reduce missed delays (False Negatives), which are more critical from a business perspective.
 
 ---
 
-## 💡 Business Insights
+## Business Insights
 
 * High discounts increase operational load → more delays
 * Shipment mode significantly affects delivery time
@@ -82,7 +85,7 @@ The model was optimized for **recall** to reduce missed delays (False Negatives)
 
 ---
 
-## 🚀 Business Recommendations
+## Business Recommendations
 
 * Prioritize high-risk shipments
 * Adjust shipping method for predicted delays
@@ -91,7 +94,7 @@ The model was optimized for **recall** to reduce missed delays (False Negatives)
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 * Python (Pandas, NumPy)
 * Scikit-learn
@@ -99,6 +102,6 @@ The model was optimized for **recall** to reduce missed delays (False Negatives)
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project demonstrates how machine learning can be used to improve delivery reliability and customer satisfaction through proactive decision-making.
