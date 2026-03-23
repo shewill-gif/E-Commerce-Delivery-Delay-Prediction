@@ -11,9 +11,14 @@ The goal of this project is to predict whether an e-commerce product delivery wi
 Delayed deliveries negatively impact customer satisfaction and operational efficiency. This project aims to proactively identify high-risk shipments so that logistics teams can take preventive actions.
 
 ---
+
 ## Project Notebook
 
 https://github.com/shewill-gif/E-Commerce-Delivery-Delay-Prediction/blob/main/capstone_project_ecom_delivery_prediction.ipynb
+
+## Project Dataset
+
+https://github.com/shewill-gif/E-Commerce-Delivery-Delay-Prediction/blob/main/E_Commerce.xlsx
 
 ## Dataset Features
 
