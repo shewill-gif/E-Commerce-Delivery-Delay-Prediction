@@ -16,6 +16,8 @@ Delayed deliveries negatively impact customer satisfaction and operational effic
 
 https://github.com/shewill-gif/E-Commerce-Delivery-Delay-Prediction/blob/main/capstone_project_ecom_delivery_prediction.ipynb
 
+---
+
 ## Project Dataset
 
 https://github.com/shewill-gif/E-Commerce-Delivery-Delay-Prediction/blob/main/E_Commerce.xlsx
