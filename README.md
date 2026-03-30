@@ -82,9 +82,13 @@ Threshold tuning was applied by lowering the classification threshold from 0.5 t
 
 ## Final Model
 
-**Random Forest** was selected due to:
+| Model         | Recall | FN  |
+| ------------- | ------ | --- |
+| Random Forest | 0.95   |  57 |
+| XGBoost       | 0.67   | 428 |
 
-Its high recall in detecting delayed deliveries, which aligns with the business goal of minimizing missed delays.”
+“Although XGBoost achieved competitive accuracy, it resulted in significantly lower recall and higher false negatives. Therefore, Random Forest was selected as Its 
+high recall in detecting delayed deliveries,  aligns with the business goal of minimizing missed delays.”
 
 ---
 
@@ -121,4 +125,6 @@ The model was optimized for **recall** to reduce missed delays (False Negatives)
 
 ## Conclusion
 
-This project demonstrates how machine learning can be used to improve delivery reliability and customer satisfaction through proactive decision-making.
+This project demonstrates how machine learning can be used to improve delivery reliability and customer satisfaction through proactive decision-making.In this project, I implemented 
+threshold tuning and class weighting to improve recall, and performed feature engineering to capture interaction effects between discount and product weight.The model is limited by the absence of 
+real-time operational features such as traffic, weather, and warehouse load. Incorporating these could further improve performance.
