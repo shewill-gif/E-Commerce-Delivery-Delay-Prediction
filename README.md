@@ -45,6 +45,11 @@ Key insights:
 ## Feature Engineering
 
 * Encoded categorical variables using One-Hot & Ordinal Encoding
+* Additional features shown below were created to capture interactions that was showing relation with delivery timings
+   Discount-weight interaction
+   High discount flag
+   Heavy product flag
+  These features help the model capture non-linear relationships affecting delays. 
 
 ---
 
@@ -54,6 +59,13 @@ Key insights:
 * Decision Tree
 * Random Forest
 * K-Nearest Neighbors (KNN)
+
+---
+
+## Model Optimization
+
+
+Threshold tuning was applied by lowering the classification threshold from 0.5 to 0.4. class_weight also adjusted to {0:1, 1:3} putting more focus on  delayed class. This increased recall by identifying more delayed deliveries, at the cost of slightly  increased false positives. This trade-off was acceptable given the business objective.”
 
 ---
 
@@ -72,9 +84,7 @@ Key insights:
 
 **Random Forest** was selected due to:
 
-* Highest accuracy
-* Better generalization
-* Ability to capture complex relationships
+Its high recall in detecting delayed deliveries, which aligns with the business goal of minimizing missed delays.”
 
 ---
 
