@@ -59,6 +59,7 @@ Key insights:
 * Decision Tree
 * Random Forest
 * K-Nearest Neighbors (KNN)
+* XGBoost (in the laer stage) 
 
 ---
 
@@ -77,6 +78,7 @@ Threshold tuning was applied by lowering the classification threshold from 0.5 t
 | Logistic Regression | 0.6522   |
 | KNN                 | 0.6468   |
 | Decision Tree       | 0.6277   |
+| XGBoost             | 0.6450   |
 
 ---
 
