@@ -48,8 +48,8 @@ Key insights:
 * Additional features shown below were created to capture interactions that was showing relation with delivery timings
    Discount-weight interaction
    High discount flag
-   Heavy product flag
-  These features help the model capture non-linear relationships affecting delays. 
+   Heavy product flag. 
+   These features help the model capture non-linear relationships affecting delays. 
 
 ---
 
